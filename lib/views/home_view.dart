@@ -22,7 +22,7 @@ class HomeView extends StatelessWidget {
                 height: 70,
                 width: 370,
                 child: Image.asset(
-                  'assets/CSI_logo_Light.png',
+                  'lib/images/CSI_logo_Light.png',
                   fit: BoxFit.fill,
                 ),
               ),
