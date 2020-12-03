@@ -15,6 +15,8 @@ class _NavBarMobileState extends State<NavBarMobile> {
         data: Theme.of(context).copyWith(
           canvasColor: Color.fromRGBO(28, 36, 67, 1),
         ),
+        // DropdownButton is a widget which makes it very easy for us to
+        // make dropdown menus
         child: new DropdownButton(
           hint: Center(
             child: Text(

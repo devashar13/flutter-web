@@ -7,6 +7,8 @@ class NavBarTabletDesktop extends StatelessWidget {
     return Container(
       color: Color.fromRGBO(28, 36, 67, 1),
       height: 70,
+      // We use row because the items in a navbar are aligned in a
+      // Single row
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

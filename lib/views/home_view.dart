@@ -7,14 +7,19 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       body: Center(
         child: Container(
+          // Making a container with background Image
+          // This continer would act as the parent widget
           constraints: BoxConstraints.expand(),
           decoration: BoxDecoration(
             image: DecorationImage(
                 image: AssetImage('lib/images/bg.jpg'), fit: BoxFit.cover),
           ),
+          // We use column because we want the structure of the page
+          // to be from up to down
           child: Column(
             children: [
               NavBar(),
+              // Sized box is a widget used simply to add spacing between 2 widgets
               SizedBox(
                 height: 150,
               ),
